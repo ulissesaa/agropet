@@ -1,0 +1,43 @@
+ion-slides{ 
+    height: 60%;
+
+    .slide-inner {
+        width: 75%;
+        color: #fff;
+        background-color: rgba(253, 235, 156, 0.965);
+        border-radius: 10px;
+    }
+}   
+
+.animais{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 45%;
+    //background: blue;
+    background-image: url('/assets/img/gato_cachorro.png'); 
+    background-size: contain;
+    transition: all 0.5s;
+
+    .cachorro{
+        position: absolute;
+        top: -100px;
+        left: 0;
+        right: 0;
+        height: 100px;
+        //background-image: url('/assets/img/Agropet.jpg'); 
+        //background-size: contain;
+        //transition: all 0.5s;
+    }
+
+    span{   
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 20%;
+        width: 50%;
+        margin: 0 auto;
+        color: black;
+    }
+}
